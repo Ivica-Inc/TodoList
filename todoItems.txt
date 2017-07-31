@@ -14,4 +14,4 @@ Create background for entire page
 - Upload to portfolio page on github
 - Add a link to github page
 - Put in a <hr> element for the footer (explore bootstrap footer)
-// Research what to add into the footer 
+// Research what to add into the footer
