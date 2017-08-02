@@ -4,10 +4,10 @@ Update the Toggle all button to bootstrap styling
 Update the todo list to checkboxes from (x)
 Style the todolists with bootstrap
 Create background for entire page
-- Delete always deletes the first position
-- Toggle should strikethrough text
-- Add a delete all function
-- Add a delete completed function
+Delete always deletes the first position
+Toggle should strikethrough text
+Add a delete all function
+Add a delete completed function
 - Save notepad text on enter or click away from notepad (If focusout or escape)
 - increase and decrese size based on button of notepad (onclick)
 - Upload to github
@@ -15,3 +15,6 @@ Create background for entire page
 - Add a link to github page
 - Put in a <hr> element for the footer (explore bootstrap footer)
 // Research what to add into the footer
+- create an event listner on element and watch for focusout
+//var change = document.getElementsbyClassName(todoInput)
+//change.addEventListernet('focusout', fucntion
