@@ -8,7 +8,7 @@ Delete always deletes the first position
 Toggle should strikethrough text
 Add a delete all function
 Add a delete completed function
-- All updates to todo lists 
+-Allow  updates to todo lists 
 //create an event listner on element and watch for focusout
 //var change = document.getElementsbyClassName(todoInput)
 //change.addEventListernet('focusout', fucntion
@@ -19,3 +19,10 @@ Add a delete completed function
 - Add a link to github page
 - Put in a <hr> element for the footer (explore bootstrap footer)
 // Research what to add into the footer
+
+
+else if (event.target.className === 'form-control todoInput') {
+  var position = (event.target.id);
+  var value = (event.target.value);
+  handler.changeTodo(position, value, event);
+}
