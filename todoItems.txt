@@ -9,11 +9,14 @@ Toggle should strikethrough text
 Add a delete all function
 Add a delete completed function
 Allow  updates to todo lists
-- Save notepad text on enter or click away from notepad (If focusout or escape)
-- increase and decrese size based on button of notepad (onclick)
-- Upload to github
-- Upload to portfolio page on github
+Save notepad text on enter or click away from notepad (If focusout or escape)
+increase and decrese size based on button of notepad (onclick)
+Upload to github
+Upload to portfolio page on github
+- Enable todos to change location on list based on up/down arrows
 - Add a link to github page
 - Put in a <hr> element for the footer (explore bootstrap footer)
--look into focusout
-// Research what to add into the footer
+- Add groups of todos that can be hidden or expanded by clicking
+//has its own header for each TodoGroup 
+//Add to group will be at top of each subgroup and will only be visible once the subgroup has been expanded 
+
