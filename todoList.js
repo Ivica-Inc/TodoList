@@ -241,3 +241,15 @@ var appInit = {
 appInit.init();
 view.displayTodos();
 appInit.setEventListener();
+var url = "api.icndb.com/jokes/random?exclude=[explicit]"
+fetch(url)
+	.then(function(response) {
+	if (response.status !== 200) {
+		console.log(respose.status);
+		return;
+	}
+	response.json().then(function(data) {
+		console.log(data['value']['0'].joke);
+	});
+});
+
