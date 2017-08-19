@@ -241,6 +241,7 @@ var appInit = {
 appInit.init();
 view.displayTodos();
 appInit.setEventListener();
+console.log('ready');
 var url = "api.icndb.com/jokes/random?exclude=[explicit]"
 fetch(url)
 	.then(function(response) {
@@ -249,6 +250,7 @@ fetch(url)
 		return;
 	}
 	response.json().then(function(data) {
+		console.log('got to response.json()');
 		console.log(data['value']['0'].joke);
 	});
 });
