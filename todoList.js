@@ -254,4 +254,3 @@ fetch(url)
 		console.log(data['value']['0'].joke);
 	});
 });
-
