@@ -9,13 +9,15 @@ Toggle should strikethrough text
 Add a delete all function
 Add a delete completed function
 Allow  updates to todo lists
+Upload to github
+Upload to portfolio page on github
+Increase and decrese size based on button of notepad (onclick)
 - Save notepad text on enter or click away from notepad (If focusout or escape)
-- increase and decrese size based on button of notepad (onclick)
-- Upload to github
-- Upload to portfolio page on github
-- Add a link to github page
+- Save todo existing task on focusout and enter
 - Put in a <hr> element for the footer (explore bootstrap footer)
--look into focusout
+- Add expansion of Todolists to sub todo lists and sub notepad 
 // Research what to add into the footer
 - add alarm feature 
+- Add a link to github page
+
 
