@@ -33,6 +33,10 @@ var todoList = {
     var newTodos = todoList.todos.filter(function(todos) {
       return todos.completed === false;
     })
+    newTodos.forEach(function (todo, index) {
+      todo.position = index;
+    })
+    console.log(newTodos)
     todoList.todos = newTodos;
     view.displayTodos();
   },
